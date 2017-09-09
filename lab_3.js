@@ -1,8 +1,11 @@
-const AGE = 44;
+const AGE = 33;
+let output = "Неизвестный возраст";
 
 if (AGE <= 17)
-    console.log("Вам работать еще рано - учитесь.")
+    output = "Вам работать еще рано - учитесь.";
 else if (AGE > 17 && AGE <= 59)
-    console.log("Вам еще работать и работать.")
-else (AGE > 59)
-    console.log("Вам пора на пенсию.")
+    output = "Вам еще работать и работать.";
+else if (AGE > 59)
+    output = "Вам пора на пенсию.";
+
+console.log(output);
