@@ -14,7 +14,7 @@ rl.question('Enter what do you think of Web Storm? ', function(answer) {
 
     console.log(answer);
 
-    rl.close();R
+    rl.close();
 });
 
 // Второй способ.

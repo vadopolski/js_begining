@@ -1,6 +1,6 @@
 // вороны
 const mainString = "ворон";
-const quantity = 1111;
+const quantity = 1118;
 
 for (let i = 0; i < quantity; i++) {
     let rest100 = i % 100;
